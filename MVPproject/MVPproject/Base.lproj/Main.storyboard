@@ -29,6 +29,9 @@
                                     <constraint firstAttribute="height" constant="30" id="mZF-iL-Lw4"/>
                                 </constraints>
                                 <state key="normal" title="Press me"/>
+                                <connections>
+                                    <action selector="ourButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MS3-Aw-J3i"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -40,6 +43,10 @@
                             <constraint firstItem="WZh-6d-L2D" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="h2z-Pc-bGP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ourButton" destination="s9m-Vh-9Lw" id="V60-L4-i9c"/>
+                        <outlet property="simpleLabel" destination="WZh-6d-L2D" id="cX1-gF-Dc7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
